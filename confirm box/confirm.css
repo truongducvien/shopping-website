@@ -1,3 +1,7 @@
+#confirm-container{
+   position: relative;
+   z-index: 3;
+}
 #confirm-container::after{
    content: '';
    position: fixed;
