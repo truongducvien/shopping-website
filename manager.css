@@ -1,0 +1,139 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Bitter', serif;
+   color: #333;
+}
+
+.container{
+   width: 80%;
+   height: fit-content;
+   padding: 20px;
+   border-radius: 3px;;
+   margin: 20px auto;
+   background-image: linear-gradient(to right bottom,rgb(179, 177, 177), whitesmoke);
+   box-shadow: 2px 2px 7px 3px rgba(205, 200, 200, 0.808);
+}
+.container h2{
+   text-align: center;
+   padding: 20px;
+   text-shadow: 1px 1px rgb(175, 175, 175);
+}
+.container .to-customer-page{
+   position: absolute;
+   top: 50px;
+   left: 150px;
+}
+.container .to-customer-page a{
+   display: block;
+   padding: 5px;
+   background-color: rgb(243, 241, 241);
+   box-shadow: 1px 1px 2px 1px grey;
+   text-decoration: unset;
+}
+.container .to-customer-page a:hover{
+   background-color: grey;
+   color: white
+}
+
+form{
+   width: fit-content;
+   margin: 10px auto; 
+}
+form label{
+   display: inline-block;
+   width: 120px;
+   margin: 5px 0
+}
+form input{
+   width: 400px;
+   height: 20px;
+   padding: 2px 10px;
+   border: unset;
+   border-radius: 2px;
+   outline: unset;
+}
+form select{
+   border: unset;
+}
+.show-area{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 600px;
+   height: fit-content;
+   padding: 10px;
+   margin: auto;
+}
+.show-area img{
+   width: 150px;
+   padding: 5px;
+}
+.show-area span{
+   font-size: 15px;;
+}
+
+
+
+form .btn, .delete-all{
+   display: inline-block;
+   width: 80px;
+   border-radius: 2px;
+   margin: 10px 5px;
+   background-color: rgb(230, 230, 230);
+   transform: translateX(240px);
+   box-shadow: 1px 1px 1px 1px rgb(161, 161, 161);
+}
+form .btn:hover, 
+.delete-all:hover,
+table .col-5 button:hover{
+   cursor: pointer;
+   background-color: rgb(242, 242, 242);
+}
+form .btn:focus, 
+.delete-all:focus
+table .col-5 button:focus{
+   outline: 1px solid grey;
+}
+
+h2{
+   display: block;
+   text-align: center;
+   width: 300px;
+   padding: 10px;
+   border-bottom: 2px solid rgb(175, 175, 175);
+   border-radius: 3px;;
+   box-shadow: 1px 2px 7px 3px rgba(205, 200, 200, 0.308) ;
+   margin: auto;
+}
+
+table{
+   margin: 20px auto;
+   border-collapse: collapse;
+}
+table thead{
+   height: 60px;
+}
+table tbody tr{
+   border-bottom: 1px solid rgba(181, 181, 181, 0.636);
+}
+table .col-1{width: 50px}
+table .col-2{width: 90px}
+table .col-3{width: 300px}
+table .col-4{width: 100px}
+table .col-5{width: 100px}
+
+table .col-5 button{
+   background-color: rgb(230, 230, 230);
+   padding: 3px;
+   border: unset;
+   border-radius: 3px;
+}
+
+.delete-all{
+   display: block;
+   padding: 4px;
+   border: unset;
+   margin: 20px auto;
+   transform: unset;
+}

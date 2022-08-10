@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head> 
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,500;0,600;1,300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="./confirm box/confirm.css">
+   <link rel="stylesheet" href="index.css">
+   <script src="./confirm box/confirm.js"></script>
+   <title>Shopping with us</title>
+</head>
+<body>   
+   <header> 
+      <div class="container">
+         <div class="image">
+            <img src="https://images.pexels.com/photos/994517/pexels-photo-994517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+         </div>
+         <div class="title">Shopping with us</div>
+      </div>
+
+      <div class="to-management-page">
+         <a href="manager.html">Management page</a>
+      </div>
+   </header>
+
+   <div class="cart-area">
+      <div class="cart-search">
+         <input id="searchInput" type="text" placeholder="Nhập từ khóa tìm kiếm ...">
+         <i id="searchBtn" class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <i id="cartBtn" class="cart-btn fa-solid fa-cart-shopping"></i>
+      <span id="item-count">0</span>
+      <div id="cart" class="cart">
+         <i id="closeBtn" class="close-btn fa-solid fa-xmark"></i>
+         <h3 class="cart__title">Giỏ hàng của tôi</h3>
+         <div class="cart__container" id="cartContainer">
+            <span class="empty-cart">Giỏ hàng trống</span>
+         </div>
+      </div>
+   </div>
+
+   <main>
+      <div class="type-menu">
+         <button id="all">Tất cả</button>
+         <button id="shirt">Áo</button>
+         <button id="pants">Quần</button>
+         <button id="skirt">Váy</button>
+         <button id="set">Bộ</button>
+         <button id="other">Phụ kiện khác</button>
+      </div>
+
+      <div class="price-filter">
+         <label>Lọc theo giá: </label>
+         <div class="group">
+            <input class="price" id="price1" type="checkbox" value="check1"><label for="price1">Dưới 100.000đ</label>
+         </div>
+         <div class="group">
+            <input class="price" id="price2" type="checkbox" value="check2"><label for="price2">100.000đ - 300.000đ</label>
+         </div>
+         <div class="group">
+            <input class="price" id="price3" type="checkbox" value="check3"><label for="price3">Trên 300.000đ</label>
+         </div>
+      </div>
+
+      <h2>Our Product</h2>
+      <div id="product" class="product"></div>
+   </main>
+
+   <script src="index.js"></script>
+</body>
+</html>
