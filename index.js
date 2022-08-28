@@ -21,7 +21,7 @@ if(!localStorage.itemList){
       new Product('https://image.fmstyle.com.vn//images/products/anhnho/761552_475971793.jpg','Áo thun cổ tròn tay ngắn', 'shirt', 129),
       new Product('https://cf.shopee.vn/file/d5cdbdc026270359b740dd92aa7c18fc','Kính râm','other', 199),
       new Product('https://image.fmstyle.com.vn//images/products/anhnho/761190_740695491.jpg','Áo thun cổ tròn', 'shirt', 190),
-      new Product('https://cf.shopee.vn/file/aae075879363e768e8d9aae7d73d616c', 'Váy trơn', 'skirt', 349),
+      new Product('https://media-fmplus.cdn.vccloud.vn/uploads/products/2202VDUFMF2801/7e0cb5cf-33cb-4a17-a414-ea707a3d3d32.jpg', 'Váy trơn', 'skirt', 349),
       new Product('https://image.fmstyle.com.vn//images/products/anhnho/786112_1786259126_793063_1288511685_57cb5630d1951acb438467-min.jpg','Thun kẻ ngang', 'shirt',235),
       new Product('https://image.fmstyle.com.vn//images/products/anhnho/791958_1742131841.jpg','Quần jeans nam', 'pants',400),
       new Product('https://image.fmstyle.com.vn//images/products/anhnho/788970_611520466.jpg','Quần short jeans nam', 'pants', 295),
